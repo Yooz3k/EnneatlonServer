@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 23:30:01
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-19 12:45:20
          compiled from "/var/www/html/adminroot/themes/default/template/helpers/list/list_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13073575875a214e35b82296-34628100%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1373583695a61da5099d4f8-28406278%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7878af56a0e6ec374ffc6e0f863a09d4b99c6977' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/list/list_content.tpl',
-      1 => 1512410943,
+      1 => 1516351244,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13073575875a214e35b82296-34628100',
+  'nocache_hash' => '1373583695a61da5099d4f8-28406278',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a214e35c9f0a6_00420010',
   'variables' => 
   array (
     'list' => 0,
@@ -49,8 +47,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'compiled_actions' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a61da50c646e1_24627952',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a214e35c9f0a6_00420010')) {function content_5a214e35c9f0a6_00420010($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5a61da50c646e1_24627952')) {function content_5a61da50c646e1_24627952($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);

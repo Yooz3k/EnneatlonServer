@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 15:44:55
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-19 12:44:58
          compiled from "/var/www/html/adminroot/themes/default/template/helpers/calendar/calendar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10396252015a25b4f4756a98-42420017%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17709037495a61da3ab5c4f6-20554191%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '357aadec07e0ea972da42b922c863c67fba6f414' => 
     array (
       0 => '/var/www/html/adminroot/themes/default/template/helpers/calendar/calendar.tpl',
-      1 => 1512466009,
+      1 => 1516351243,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10396252015a25b4f4756a98-42420017',
+  'nocache_hash' => '17709037495a61da3ab5c4f6-20554191',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25b4f49fa997_90807586',
   'variables' => 
   array (
     'is_rtl' => 0,
@@ -30,8 +28,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'compare_option' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a61da3ac515d7_78651065',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25b4f49fa997_90807586')) {function content_5a25b4f49fa997_90807586($_smarty_tpl) {?><div id="datepicker" class="row row-padding-top hide">
+<?php if ($_valid && !is_callable('content_5a61da3ac515d7_78651065')) {function content_5a61da3ac515d7_78651065($_smarty_tpl) {?><div id="datepicker" class="row row-padding-top hide">
 	<div class="col-lg-12">
 		<div class="daterangepicker-days">
 			<div class="row">
